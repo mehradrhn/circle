@@ -1,0 +1,74 @@
+.pic {
+    width: 32%;
+    float: right;
+    margin-right: 90px;
+    margin-top: -12px;
+}
+
+.card {
+    border: none;
+    margin-top: 100px;
+    margin-right: 44px;
+}
+
+.title {
+    color: #CCA349;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+span {
+    color: black;
+}
+
+.button {
+
+    margin-top: 20px;
+    border-color: #CCA349;
+    background-color: #CCA349;
+
+}
+
+.button:hover {
+    background-color: #CCA349;
+    border-color: #CCA349;
+
+}
+
+
+@media only screen and (max-width: 960px) {
+
+    .pic {
+        width: 34%;
+
+    }
+
+    .card {
+        margin-top: 14px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .pic {
+        margin-right: 55px;
+        margin-top: 69px;
+
+    }
+
+    .card {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .pic {
+        width: 38%;
+        margin-right: 12px;
+
+    }
+
+   
+
+
+}

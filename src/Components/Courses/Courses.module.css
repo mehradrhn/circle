@@ -1,0 +1,130 @@
+.holder {
+    margin: 10px auto;
+}
+
+.card {
+    width: 15rem;
+    margin-left: auto;
+    position: relative;
+    top: 60px;
+    border: none;
+    text-align: center;
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+    cursor: pointer;
+}
+
+.CoursesBack {
+    background-color: #F0F0F0;
+    width: 241px;
+    height: 200px;
+    position: relative;
+    top: -16px;
+    right: 16px;
+}
+
+.CardImg {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    position: relative;
+    top: 35px;
+}
+
+
+.LearningCourses {
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    margin-top: 110px;
+}
+
+.CardTitle {
+    margin-top: 10px;
+    font-size: medium;
+}
+
+.CardText {
+    font-size: small;
+}
+
+.btn {
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid #000;
+}
+
+.btn>p {
+    color: #CCA349;
+}
+
+.btn:hover {
+    background-color: #CCA349;
+    transition: 0.5s;
+}
+
+.btn:hover>p {
+    color: #fff;
+}
+
+.btnOtherCourses {
+    position: relative;
+    left: 510px;
+    top: 80px;
+    height: 40px;
+    background-color: #CCA349;
+    border: 2px solid #CCA349;
+    border-radius: 12px;
+}
+
+.btnOtherCourses>p {
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (min-width: 1491px) and (max-width: 1605px) {
+
+    .btnOtherCourses {
+        left: 615px;
+    }
+
+}
+
+@media only screen and (max-width: 960px) {
+
+    .card {
+        width: 10rem;
+    }
+
+    .btnOtherCourses {
+        position: relative;
+        left: 290px;
+    }
+
+    .CoursesBack {
+        width: 161px;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+
+    .card {
+        margin-right: 150px;
+    }
+
+    .btnOtherCourses{
+        left: 228px;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+
+    .btnOtherCourses {
+        position: relative;
+        left: 169px;
+    }
+
+}

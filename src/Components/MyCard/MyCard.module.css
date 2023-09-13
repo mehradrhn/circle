@@ -1,0 +1,92 @@
+.card{
+    width: 315px;
+    height: 400px;
+    margin-left: auto;
+    margin-bottom: 40px;
+    position: relative;
+    top: -550px;
+    cursor: pointer;
+
+}
+
+.CardImg{
+    position: relative;
+    width: 270px;
+    height: 210px;
+    left: 20px;
+}
+
+.CardTitle{
+    direction: rtl;
+}
+
+.CardText{
+    direction: rtl;
+    font-size: small;
+}
+
+.writer{
+    color: #6F97B9;
+}
+
+.comments{
+    position: relative;
+    top: -78px;
+    left: 206px;
+}
+
+.views{
+    position: relative;
+    top: -38px;
+    left: 245px; 
+}
+
+@media only screen and (max-width: 960px) {
+    .CardImg{
+        position: relative;
+        width: 80px;
+        left: 50px;
+    }
+
+    .card{
+        position: relative;
+        width: 210px;
+        height: 246px;
+    }
+
+    .CardText{
+        font-size: x-small;
+    }
+
+    .CardTitle{
+        font-size: small;
+    }
+
+    .writer{
+        font-size: small;
+    }
+
+    .comments{
+        position: relative;
+        left: 128px;
+    }
+
+    .views{
+        position: relative;
+        left: 156px;
+    }
+}
+
+@media only screen and  (max-width: 767px) {
+    .card{
+        position: relative;
+        left: -125px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .card{
+        position: relative;
+        top: -393px;
+    }
+}

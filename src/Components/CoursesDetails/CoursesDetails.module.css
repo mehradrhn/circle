@@ -1,0 +1,865 @@
+.Tabs {
+    width: 350px;
+    position: relative;
+    left: 954px;
+    top: 62px;
+    background-color: #F3F3F3;
+}
+
+.Tabs>li {
+    position: relative;
+    right: -7px;
+}
+
+.CoursesDetailsBack {
+    background-color: #F3F3F3;
+    width: 1150px;
+    height: 1483px;
+    direction: rtl;
+    position: relative;
+    margin-left: auto;
+    top: 61px;
+    right: 84px;
+}
+
+.CoursesTitle {
+    position: relative;
+    right: 41px;
+    top: 50px;
+}
+
+.CoursesTeacher {
+    position: relative;
+    right: 255px;
+    top: -31px;
+}
+
+.CoursesAbout {
+    width: 430px;
+    position: relative;
+    right: 40px;
+}
+
+.CoursesDetailsImg {
+    position: relative;
+    right: 676px;
+    width: 400px;
+    top: -323px;
+}
+
+.CoursesDetailsImg>img {
+    width: 380px;
+}
+
+.moreInfo {
+    position: relative;
+    top: -350px;
+    right: 40px;
+}
+
+.UL {
+    list-style: none;
+    position: relative;
+    top: -340px;
+}
+
+.LI {
+    position: relative;
+    right: 17px;
+    margin-top: -12px;
+    top: 20px;
+}
+
+.offSale {
+    position: relative;
+    width: 50px;
+    background-color: #6ACA56;
+    border: 1px solid #6ACA56;
+    border-radius: 5px;
+    right: 280px;
+    top: -889px;
+    height: 33px;
+}
+
+.offSale>p {
+    color: #fff;
+    text-align: center;
+}
+
+.titleDetail {
+    position: relative;
+    right: 5px;
+    color: #000;
+}
+
+
+.checkPic>img {
+    position: relative;
+    top: -40px;
+    right: -23px;
+    width: 20px;
+}
+
+.AddCourse {
+    position: relative;
+    right: 30px;
+    top: -365px;
+    background-color: #6ACA56;
+    width: 215px;
+    border: 1px solid #6ACA56;
+    border-radius: 5px;
+    height: 40px;
+}
+
+.AddCourse>p {
+    color: #fff;
+    text-align: center;
+}
+
+.LineOne {
+    position: relative;
+    height: 1px;
+    width: 440px;
+    background-color: #707070;
+    top: -250px;
+    right: 29px;
+}
+
+.LineTwo {
+    position: relative;
+    height: 1px;
+    width: 440px;
+    background-color: #707070;
+    top: -250px;
+    right: 669px;
+}
+
+.RelatedCourses {
+    position: relative;
+    top: -267px;
+    right: 518px;
+}
+
+.OtherCoursesBack {
+    position: relative;
+    width: 210px;
+    height: 200px;
+    background-color: #fff;
+    right: 31px;
+    top: -215px;
+}
+
+.RelatedCoursesInfo>img {
+    position: relative;
+    width: 80px;
+    height: 70px;
+    border-radius: 50%;
+    right: 60px;
+    top: 30px;
+}
+
+.RelatedCoursesInfo>p {
+    position: relative;
+    right: 27px;
+    top: 42px;
+    font-size: medium;
+}
+
+.RelatedCoursesInfo>span {
+    position: relative;
+    right: 64px;
+    top: 40px;
+    color: #CCA349;
+    font-size: medium;
+}
+
+.DownArrow {
+    position: relative;
+    background-color: #A5A5A5;
+    width: 60px;
+    height: 60px;
+    top: -197px;
+    right: 535px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.DownArrow>img {
+    position: relative;
+    top: 10px;
+    left: 2px;
+    width: 40px;
+    transform: rotate(-90deg);
+}
+
+.CommentsBack {
+    background-color: #F3F3F3;
+    width: 1150px;
+    height: 740px;
+    direction: rtl;
+    position: relative;
+    margin-left: auto;
+    top: 61px;
+    right: 84px;
+}
+
+.Alert {
+    position: relative;
+    width: 1050px;
+    height: 50px;
+    background-color: #E6F0FF;
+    top: 50px;
+    right: 51px;
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;
+}
+
+.Alert>p {
+    position: relative;
+    top: 9px;
+    right: 30px;
+    color: #7774BE;
+}
+
+.logo>img {
+    position: relative;
+    width: 70px;
+    top: 130px;
+    right: 54px;
+}
+
+.UserComment {
+    position: relative;
+    width: 950px;
+    height: 150px;
+    background-color: #fff;
+    border: 1px solid #707070;
+    right: 146px;
+    top: 20px;
+    border-radius: 5px;
+}
+
+.UserComment>p {
+    position: relative;
+    top: 20px;
+    right: 20px;
+}
+
+.UserComment>span {
+    position: relative;
+    top: 30px;
+    right: 70px;
+    font-size: 15px;
+    font-weight: unset;
+}
+
+.AdminComment {
+    position: relative;
+    width: 950px;
+    height: 150px;
+    background-color: #fff;
+    border: 1px solid #707070;
+    right: 146px;
+    top: 100px;
+    border-radius: 5px;
+}
+
+.AdminComment>img {
+    position: relative;
+    width: 70px;
+    top: 35px;
+    right: 25px;
+}
+
+.AdminComment>p {
+    position: relative;
+    right: 160px;
+    top: -45px;
+}
+
+.AdminComment>span {
+    position: relative;
+    right: 160px;
+    top: -37px;
+    font-size: 15px;
+    font-weight: unset;
+}
+
+.SeeMoreComments {
+    position: relative;
+    right: 146px;
+    top: 155px;
+    background-color: #CCA349;
+    width: 215px;
+    border: 1px solid #CCA349;
+    border-radius: 5px;
+    height: 40px;
+}
+
+.SeeMoreComments>p {
+    color: #fff;
+    text-align: center;
+}
+
+.DownArrowComments {
+    position: relative;
+    background-color: #A5A5A5;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+    top: 247px;
+    right: 540px;
+}
+
+.DownArrowComments>img {
+    position: relative;
+    width: 40px;
+    transform: rotate(-90deg);
+    right: 9px;
+    top: 11px;
+}
+
+.NewCommentBack {
+    background-color: #F3F3F3;
+    width: 1150px;
+    height: 558px;
+    direction: rtl;
+    position: relative;
+    margin-left: auto;
+    top: 61px;
+    right: 84px;
+}
+
+.NewCommentBack>p {
+    position: relative;
+    top: 90px;
+    right: 62px;
+}
+
+.AddComment {
+    position: relative;
+    top: 110px;
+    height: 200px;
+    width: 1031px;
+    right: 60px;
+}
+
+.AddComment>textarea {
+    height: 225px;
+    width: 1048px;
+    color: #989191;
+    border-radius: 5px;
+    border: 1px solid #707070;
+}
+
+.SubmitYourComment {
+    position: relative;
+    right: 890px;
+    top: 200px;
+    background-color: #6ACA56;
+    width: 215px;
+    border: 1px solid #6ACA56;
+    border-radius: 5px;
+    height: 40px;
+}
+
+.SubmitYourComment>p {
+    color: #fff;
+    text-align: center;
+}
+
+.DownArrowAddComment {
+    position: relative;
+    background-color: #A5A5A5;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+    top: 247px;
+    right: 540px;
+}
+
+.DownArrowAddComment>img {
+    position: relative;
+    width: 40px;
+    transform: rotate(-90deg);
+    right: 9px;
+    top: 11px;
+}
+
+@media only screen and (max-width: 960px) {
+    .Tabs {
+        left: 510px;
+    }
+
+    .CoursesDetailsBack {
+        width: 754px;
+        right: 100px;
+    }
+
+    .CoursesAbout>p {
+        font-size: 13px;
+    }
+
+    .CoursesDetailsImg {
+        right: 513px;
+        top: -323px;
+    }
+
+    .CoursesDetailsImg>img {
+        width: 227px;
+    }
+
+    .LI {
+        top: 115px;
+    }
+
+    .DownArrow {
+        top: 47px;
+        right: 306px;
+    }
+
+    .OtherCoursesBack {
+        width: 147px;
+        right: -8px;
+        top: -78px;
+    }
+
+    .RelatedCoursesInfo>img {
+        right: 34px;
+        top: 21px;
+    }
+
+    .RelatedCoursesInfo>p {
+        font-size: 14px;
+        right: 9px;
+    }
+
+    .RelatedCoursesInfo>span {
+        font-size: 14px;
+        right: 40px;
+    }
+
+    .RelatedCourses {
+        top: -130px;
+        right: 316px;
+    }
+
+    .LineOne {
+        width: 260px;
+        top: -112px;
+    }
+
+    .LineTwo {
+        width: 280px;
+        top: -112px;
+        right: 449px;
+    }
+
+    .AddCourse {
+        top: -207px;
+    }
+
+    .UL {
+        top: -275px;
+    }
+
+    .moreInfo {
+        top: -190px;
+    }
+
+    .offSale {
+        top: -505px;
+    }
+
+    .CommentsBack {
+        width: 754px;
+        right: 100px;
+    }
+
+    .Alert {
+        width: 658px;
+        right: 45px;
+    }
+
+    .UserComment {
+        width: 550px;
+    }
+
+    .UserComment>p {
+        font-size: 14px;
+    }
+
+    .UserComment>span {
+        right: 38px;
+        font-size: 14px;
+    }
+
+    .AdminComment {
+        width: 634px;
+        right: 70px;
+    }
+
+    .AdminComment>p {
+        font-size: 14px;
+    }
+
+    .AdminComment>span {
+        font-size: 14px;
+    }
+
+    .SeeMoreComments {
+        right: 74px;
+    }
+
+    .DownArrowComments {
+        right: 342px;
+    }
+
+    .NewCommentBack {
+        width: 754px;
+        right: 100px;
+    }
+
+    .AddComment>textarea {
+        width: 640px;
+    }
+
+    .SubmitYourComment {
+        right: 65px;
+        top: 180px;
+    }
+
+    .DownArrowAddComment {
+        right: 360px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .CoursesDetailsBack {
+        width: 550px;
+        height: 1500px;
+    }
+
+    .Tabs {
+        left: 336px;
+        width: 329px;
+    }
+
+    .CoursesTitle {
+        top: 47px;
+    }
+
+    .CoursesTitle>p {
+        font-size: 14px;
+    }
+
+    .CoursesTeacher {
+        font-size: 14px;
+    }
+
+    .CoursesDetailsImg {
+        right: 394px;
+        top: -289px;
+    }
+
+    .CoursesDetailsImg>img {
+        width: 148px;
+    }
+
+    .OtherCoursesBack {
+        right: 150px;
+        top: -119px;
+        margin-bottom: 30px;
+        height: 120px;
+        width: 220px;
+    }
+
+    .RelatedCoursesInfo>img {
+        right: 10px;
+    }
+
+    .RelatedCoursesInfo>p {
+        font-size: 13px;
+        right: 90px;
+        top: -55px;
+    }
+
+    .RelatedCoursesInfo>span {
+        right: 120px;
+        top: -37px;
+    }
+
+    .LineOne {
+        width: 185px;
+        top: -127px;
+    }
+
+    .LineTwo {
+        width: 176px;
+        top: -130px;
+        right: 360px;
+    }
+
+    .RelatedCourses {
+        top: -146px;
+        right: 235px;
+    }
+
+    .DownArrow {
+        top: -33px;
+        right: 235px;
+    }
+
+    .titleDetail {
+        font-size: 13px;
+    }
+
+    .AddCourse {
+        top: -180px;
+    }
+
+    .LI {
+        top: 155px;
+    }
+
+    .moreInfo {
+        top: -150px;
+    }
+
+    .offSale {
+        top: -444px;
+        right: 225px;
+    }
+
+    .CommentsBack {
+        width: 550px;
+        height: 800px;
+    }
+
+    .Alert {
+        width: 460px;
+    }
+
+    .Alert>p {
+        font-size: 14px;
+        top: 14px;
+    }
+
+    .UserComment {
+        width: 345px;
+    }
+
+    .AdminComment {
+        width: 487px;
+        right: 27px;
+    }
+
+    .AdminComment>p {
+        right: 110px;
+    }
+
+    .SeeMoreComments {
+        right: 30px;
+    }
+
+    .DownArrowComments {
+        right: 234px;
+        top: 310px;
+    }
+
+    .NewCommentBack {
+        width: 550px;
+        height: 500px;
+    }
+
+    .NewCommentBack>p {
+        top: 55px;
+    }
+
+    .AddComment {
+        top: 80px;
+    }
+
+    .AddComment>textarea {
+        width: 425px;
+        height: 170px;
+    }
+
+    .SubmitYourComment {
+        top: 105px;
+    }
+
+    .DownArrowAddComment {
+        right: 238px;
+        top: 188px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .Tabs {
+        left: 85px;
+    }
+
+    .CoursesDetailsBack {
+        width: 329px;
+        right: 66px;
+    }
+
+    .CoursesTitle {
+        top: 25px;
+        right: 17px;
+    }
+
+    .CoursesTeacher {
+        right: 21px;
+        top: 17px;
+    }
+
+    .CoursesDetailsImg {
+        right: 196px;
+        top: -295px;
+    }
+
+    .CoursesDetailsImg>img {
+        width: 122px;
+    }
+
+    .DownArrow {
+        top: -45px;
+        right: 125px;
+    }
+
+    .OtherCoursesBack {
+        right: 41px;
+        top: -44px;
+    }
+
+    .RelatedCourses {
+        top: -72px;
+        right: 118px;
+    }
+
+    .LineOne {
+        width: 91px;
+        top: -54px;
+        right: 14px;
+    }
+
+    .LineTwo {
+        width: 82px;
+        top: -57px;
+        right: 238px;
+    }
+
+    .AddCourse {
+        top: -130px;
+    }
+
+    .LI {
+        top: 195px;
+    }
+
+    .offSale {
+        top: -400px;
+    }
+
+    .moreInfo {
+        top: -102px;
+    }
+
+    .CoursesAbout {
+        width: 269px;
+        right: 25px;
+        top: 18px;
+    }
+
+    .CommentsBack {
+        width: 329px;
+        right: 66px;
+    }
+
+    .Alert {
+        width: 269px;
+        right: 32px;
+    }
+
+    .Alert>p {
+        font-size: 13px;
+    }
+
+    .UserComment {
+        width: 213px;
+        right: 100px;
+    }
+
+    .logo>img {
+        width: 60px;
+        right: 30px;
+    }
+
+    .AdminComment {
+        width: 270px;
+    }
+
+    .AdminComment>img {
+        width: 60px;
+        top: 42px;
+        right: 16px;
+    }
+
+    .AdminComment>p {
+        width: 144px;
+    }
+
+    .AdminComment>span {
+        font-size: 13px;
+        right: 93px;
+        top: -49px;
+    }
+
+    .SeeMoreComments {
+        right: 45px;
+    }
+
+    .DownArrowComments {
+        right: 135px;
+        top: 316px;
+    }
+
+    .NewCommentBack {
+        width: 329px;
+        right: 66px;
+    }
+
+    .AddComment {
+        right: 24px;
+    }
+
+    .AddComment>textarea {
+        width: 282px;
+    }
+
+    .SubmitYourComment {
+        right: 53px;
+    }
+
+    .DownArrowAddComment {
+        right: 132px;
+    }
+}
+
+@media only screen and (min-width: 1491px) {
+    .CoursesDetailsBack {
+        right: 215px;
+    }
+
+    .CommentsBack {
+        right: 215px;
+    }
+
+    .NewCommentBack {
+        right: 215px;
+    }
+}

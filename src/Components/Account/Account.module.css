@@ -1,0 +1,217 @@
+.holder {
+    background: #F6F6F6;
+    height: 100vh;
+
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+
+}
+
+.leftBox {
+    position: relative;
+    background-color: #FFFFFF;
+    width: 700px;
+    height: 90%;
+    top: 50px;
+    border: 1px solid #4F0E73;
+    border-radius: 20px 0 0 20px;
+}
+
+.rightBox {
+    position: relative;
+    background-color: #46A194;
+    width: 300px;
+    height: 90%;
+    top: 50px;
+    left: 20px;
+    border-radius: 0 20px 20px 0;
+
+
+}
+
+.leftRow {
+    position: relative;
+    right: 10px;
+    top: -20px;
+    direction: rtl;
+}
+
+.title {
+    position: relative;
+    bottom: -20px;
+    right: 224px;
+    font-size: 30px;
+
+}
+
+.secondRow {
+    position: relative;
+    top: 10px;
+}
+
+.thirdRow {
+    position: relative;
+    top: 20px;
+}
+
+.forthRow {
+    position: relative;
+    top: 20px;
+}
+
+.box {
+    position: relative;
+    top: 20px;
+}
+
+.text {
+    height: 150px;
+}
+
+input {
+    color: #4B4B4B;
+    font-size: 10px;
+}
+
+.buttonHolder {
+
+    margin: 70px 0;
+}
+
+.sign {
+    background-color: #6ACA56;
+    border: none;
+    width: 100px;
+}
+
+.delete {
+    background-color: #DD4C4C;
+    border: none;
+    width: 100px;
+    margin-right: 20px;
+}
+
+
+.admin {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    position: relative;
+    left: 75px;
+    bottom: 65px;
+}
+
+.adminText {
+    color: #FFFFFF;
+    font-size: 20px;
+    position: relative;
+    left: 85px;
+    bottom: 45px;
+
+}
+
+.work {
+    color: #FFFFFF;
+    position: relative;
+    left: 120px;
+    bottom: 50px;
+}
+
+li {
+    position: relative;
+    right: 65px;
+    top: 35px;
+
+    text-align: right;
+    list-style: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+
+.liPic {
+    width: 12%;
+    float: right;
+    margin-left: 10px;
+    margin-top: 4px;
+}
+
+.back {
+    position: relative;
+    bottom: 120px;
+    left: 20px;
+    color: #515151;
+}
+
+@media only screen and (max-width: 1280px) {}
+
+@media only screen and (max-width: 960px) {
+
+    .leftBox {
+        height: 80%;
+    }
+
+    .rightBox {
+        width: 200px;
+        left: 7px;
+        height: 80%;
+    }
+
+    .admin {
+        left: 32px;
+    }
+
+    .adminText {
+        left: 42px;
+    }
+
+    .work {
+        left: 78px;
+    }
+
+    li {
+        right: 25px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .leftBox {
+        width: 500px;
+        height: 94%;
+
+    }
+
+    .rightBox{
+        height: 94%;
+    }
+
+    .leftRow{
+        top: -33px;
+
+    }
+
+    .title{
+        right: 153px;
+    }
+
+    .back{
+        bottom: 154px;
+    }
+        
+    
+}
+
+@media only screen and (max-width: 480px) {
+    .leftBox{
+        width: 455px;
+    }
+    
+    .rightBox{
+        display: none;
+    }
+
+    .title{
+        right: 130px;
+    }
+}

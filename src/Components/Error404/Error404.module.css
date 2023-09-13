@@ -1,0 +1,84 @@
+.error404 > img{
+    width: 450px;
+    position: relative;
+    left: 410px;
+    top: 100px;
+}
+
+.error404 > p{
+    position: relative;
+    top: 150px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.error404 > button{
+    position: relative;
+    left: 540px;
+    top: 180px;
+    width: 220px;
+    height: 60px;
+    border: 1px solid #e76c37;
+    background-color: #e76c37;
+    border-radius: 50px;
+}
+
+.error404 > button > span{
+    color: #fff;
+    font-size: 17px;
+}
+
+.error404 > button:hover{
+    background-color: #fff;
+    transition: 0.2s;
+}
+
+.error404 > button:hover > span{
+    color: #000;
+}
+
+@media only screen and (min-width:1491px) {
+    
+    .error404 > img{
+        left: 503px;
+    }
+   
+    .error404 > p{
+        left: -16px;
+    }
+
+    .error404 > button{
+        left: 633px;
+    }
+}
+
+@media only screen and (max-width:960px) {
+    .error404 > img{
+        left: 230px;
+    }
+
+    .error404 > button{
+        left: 380px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .error404 > img{
+        left: 145px;
+    }
+
+    .error404 > button{
+        left: 275px;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .error404 > img{
+        width: 400px;
+        left: 38px;
+    }
+
+    .error404 > button{
+        left: 138px;
+    }
+}

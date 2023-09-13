@@ -1,0 +1,278 @@
+.holder {
+    position: relative;
+    top: 50px;
+}
+
+.CoursesIntroImg {
+    width: 420px;
+    position: relative;
+    left: 450px;
+    top: 40px;
+}
+
+.LearningPackages {
+    direction: rtl;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    left: 20px;
+    font-size: x-large;
+}
+
+.SearchCourses {
+    width: 500px;
+    direction: rtl;
+    position: relative;
+    left: 400px;
+    top: 70px;
+}
+
+.InputSearch {
+    border: 1px solid #9B9891;
+    border-radius: 6px;
+}
+
+.SearchBtn {
+    border: none;
+    width: 55px;
+    position: relative;
+    right: 445px;
+    top: -37px;
+    height: 37px;
+    background-color: #CCA349;
+    border: 1px solid #CCA349;
+}
+
+.SearchIcon {
+    width: 25px;
+    position: relative;
+    top: -2px;
+}
+
+.SearchBtn:hover {
+    background-color: #CCA349;
+    border: none;
+}
+
+.card {
+    margin-left: auto;
+    margin-bottom: 40px;
+    position: relative;
+    top: 100px;
+    width: 470px;
+    height: 240px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.CardImg {
+    position: relative;
+    left: 25px;
+    top: 1px;
+    width: 100px;
+    height: 100px;
+}
+
+.CardTitle {
+    direction: rtl;
+    position: relative;
+    right: 205px;
+    top: -65px;
+}
+
+.CardText {
+    direction: rtl;
+    position: relative;
+    right: 205px;
+    top: -55px;
+}
+
+.CardBtn {
+    position: relative;
+    top: -55px;
+    left: 20px;
+    width: 85px;
+    height: 40px;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #CCA349;
+    border-radius: 15px;
+}
+
+.CardBtn>p {
+    text-align: center;
+}
+
+.CardBtn:hover {
+    background-color: #CCA349;
+}
+
+.CoursesBackground {
+
+    background-image: linear-gradient(180deg, #fcfcfc, #F0F0F0);
+    position: relative;
+    width: 150px;
+    height: 200px;
+    left: 300px;
+    top: 50px;
+}
+
+.BtnMoreCourses {
+    position: relative;
+    left: 555px;
+    top: 100px;
+    width: 90px;
+    height: 36px;
+    background-color: #fff;
+    border: 1px solid #CCA349;
+    border-radius: 6px;
+
+}
+
+.BtnMoreCourses>p {
+    text-align: center;
+    position: relative;
+    top: 1px;
+}
+
+.BtnMoreCourses:hover {
+    background-color: #CCA349;
+}
+
+.BtnMoreCourses:hover>p {
+    color: #fff;
+}
+
+
+
+@media only screen and (min-width: 1491px) {
+    .LearningPackages {
+        position: relative;
+        left: 7px;
+    }
+
+    .SearchCourses {
+        position: relative;
+        left: 383px;
+    }
+
+    .card {
+        position: relative;
+        right: 80px;
+    }
+
+    .BtnMoreCourses {
+        position: relative;
+        left: 605px;
+        top: 127px;
+    }
+
+}
+
+@media only screen and (max-width: 960px) {
+    .CoursesIntroImg {
+        position: relative;
+        left: 297px;
+    }
+
+    .SearchCourses {
+        position: relative;
+        left: 238px;
+    }
+
+    .card {
+        position: relative;
+        width: 290px;
+    }
+
+    .CardImg {
+        position: relative;
+        left: 26px;
+    }
+
+    .CoursesBackground {
+        position: relative;
+        left: 75px;
+        top: 14px;
+    }
+
+    .CardTitle {
+        position: relative;
+        right: 23px;
+        top: 8px;
+        font-size: medium;
+    }
+
+    .CardText {
+        position: relative;
+        right: 23px;
+        top: 10px;
+        font-size: small;
+    }
+
+    .CardBtn {
+        position: relative;
+        width: 74px;
+    }
+
+    .CardBtn>p {
+        position: relative;
+        font-size: small;
+    }
+
+    .BtnMoreCourses {
+        position: relative;
+        left: 333px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .CoursesIntroImg {
+        position: relative;
+        left: 192px;
+    }
+
+    .SearchCourses {
+        position: relative;
+        left: 146px;
+    }
+
+    .card {
+        position: relative;
+        width: 290px;
+        right: 83px;
+    }
+
+    .BtnMoreCourses {
+        position: relative;
+        left: 247px;
+        top: 115px;
+    }
+
+    
+}
+
+@media only screen and (max-width: 480px) {
+
+    .CoursesIntroImg {
+        position: relative;
+        left: 50px;
+    }
+
+    .SearchCourses {
+        position: relative;
+        left: 100px;
+        width: 310px;
+    }
+
+    .SearchBtn {
+        position: relative;
+        right: 255px;
+    }
+
+    .BtnMoreCourses {
+        position: relative;
+        left: 198px;
+    }
+}

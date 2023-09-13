@@ -1,0 +1,126 @@
+.holder {
+    background: #46A194;
+    height: 100vh;
+
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.box {
+    position: relative;
+    top: 10%;
+
+    background: #FFFFFF;
+    width: 70%;
+    height: 80%;
+
+    border-radius: 20px;
+}
+
+
+.mainRow {
+    position: relative;
+    top: 30px;
+    margin-right: 50px;
+}
+
+.title {
+    position: relative;
+    left: 735px;
+    top: 80px;
+    font-size: 25px;
+}
+
+.formRow {
+    position: relative;
+    top: 100px;
+    left: 330px;
+    direction: rtl;
+
+
+}
+
+.buttonHolder {
+    margin: 45px 0;
+}
+
+.buttons {
+    width: 100px;
+    margin: 0 10px;
+}
+
+
+
+.LoginPic {
+    width: 130%;
+    position: relative;
+    right: 605px;
+    top: 20px;
+}
+
+@media only screen and (min-width: 1280px) {}
+
+@media only screen and (max-width: 1280px) {
+    .mainRow {
+        right: 70px;
+        top: 50px;
+    }
+
+    .LoginPic {
+        right: 415px;
+        top: 120px;
+    }
+
+    .title {
+        left: 550px;
+        top: 105px;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+
+    .mainRow {
+        right: 250px;
+        top: 45px;
+    }
+
+    .LoginPic {
+        display: none;
+    }
+
+    .title {
+        left: 280px;
+        top: 105px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    
+    .box{
+        height: 55%;
+        top: 25%;
+    }
+
+    .formRow {
+        left: 280px;
+        top: 53px;
+    }
+
+    .title {
+        top: 52px;
+        left: 205px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    
+    .box{
+        height: 60%;
+        top: 25%;
+    }
+    .title {
+        left: 97px;
+    }
+}

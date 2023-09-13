@@ -1,0 +1,31 @@
+.holder {
+    position: relative;
+    top: 10px;
+    left: 50px;
+    height: 200px;
+    border: 1px solid #4D0B71;
+    border-radius: 20px 20px 0 0;
+
+}
+
+.box {
+    background-color: #46A194;
+    width: 160px;
+    height: 125px;
+    margin: auto;
+    border-radius: 20px;
+
+}
+
+.pic {
+    width: 50%;
+    position: relative;
+    top: 25px;
+    left: 40px;
+}
+
+.para {
+    position: relative;
+    left: 9px;
+    top: 9px
+}

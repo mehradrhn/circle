@@ -1,0 +1,130 @@
+.container {
+    overflow: hidden;
+    margin-top: 100px;
+}
+
+span {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 60px;
+    margin-top: 30px;
+
+}
+
+
+
+.newsTitle {
+    float: right;
+    margin-right: 50px;
+    margin-bottom: 24px;
+    font-size: 20px;
+
+}
+
+.newsBorder {
+    height: 13px;
+    width: 484px;
+    margin-right: 16px;
+    margin-top: 15px;
+    background: #F0F0F0;
+    float: right;
+}
+
+.articBorder {
+    position: relative;
+    top: -33px;
+    left: 50px;
+    height: 13px;
+    width: 457px;
+    background: #F0F0F0;
+
+}
+
+.articTitle {
+    position: relative;
+    left: 523px;
+    font-size: 20px;
+}
+
+
+.box {
+    margin-top: 20px;
+}
+
+.cardBox {
+    height: 160px;
+    box-shadow: -1px 0px 15px 5px rgba(40, 40, 40, 0.1);
+    border: none;
+    margin-bottom: 15px;
+}
+
+.cardPic {
+    height: 65%;
+    margin-right: 20px;
+    margin-top: 23px;
+}
+
+.text {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.slider {
+    display: none;
+}
+
+@media only screen and (min-width: 1280px) {}
+
+@media only screen and (max-width: 1280px) {
+
+    .newsHolder {
+        position: relative;
+        left: 44px;
+    }
+
+    .articHolder {
+        position: relative;
+        left: -42px;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+
+    .newsBorder {
+        display: none;
+    }
+
+    .articBorder {
+        display: none;
+    }
+
+    .articTitle {
+        left: 312px;
+    }
+
+    .cardBox {
+        height: 175px
+    }
+
+    .cardPic {
+        height: 50%;
+        margin-top: 41px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .box {
+        display: none;
+    }
+
+    .slider {
+        display: block;
+        width: 70%;
+        margin: 50px auto;
+    }
+
+
+}
+
+@media only screen and (max-width: 480px) {}

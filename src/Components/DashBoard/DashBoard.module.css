@@ -1,0 +1,184 @@
+.holder {
+    background: #F6F6F6;
+    height: 100vh;
+
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+
+}
+
+.leftBox {
+    position: relative;
+    background-color: #FFFFFF;
+    width: 700px;
+    height: 90%;
+    top: 50px;
+    border: 1px solid #4F0E73;
+    border-radius: 20px 0 0 20px;
+}
+
+.rightBox {
+    position: relative;
+    background-color: #46A194;
+    width: 250px;
+    height: 90%;
+    top: 50px;
+    left: 20px;
+    border-radius: 0 20px 20px 0;
+
+
+}
+
+.title {
+    font-size: 30px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 50px;
+
+}
+
+.firstRow {
+    position: relative;
+    right: 42px;
+    top: 90px;
+}
+
+.secondRow {
+    position: relative;
+    right: 42px;
+    top: 120px;
+}
+
+.admin {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    position: relative;
+    left: 56px;
+    bottom: 65px;
+}
+
+.adminText {
+    color: #FFFFFF;
+    font-size: 20px;
+    position: relative;
+    left: 65px;
+    bottom: 45px;
+
+}
+
+.work {
+    color: #FFFFFF;
+    position: relative;
+    left: 100px;
+    bottom: 50px;
+}
+
+li {
+    position: relative;
+    right: 45px;
+    top: 35px;
+
+    text-align: right;
+    list-style: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+
+.liPic {
+    width: 12%;
+    float: right;
+    margin-left: 10px;
+    margin-top: 4px;
+}
+
+.back {
+    position: relative;
+    bottom: 70px;
+    left: 20px;
+    color: #515151;
+}
+
+@media only screen and (max-width: 1280px) {}
+
+@media only screen and (max-width: 960px) {
+    .leftBox {
+        height: 80%;
+    }
+
+    .rightBox {
+        width: 200px;
+        left: 7px;
+        height: 80%;
+    }
+
+    .admin {
+        left: 32px;
+    }
+
+    .adminText {
+        left: 42px;
+    }
+
+    .work {
+        left: 78px;
+    }
+
+    li {
+        right: 25px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .leftBox {
+        width: 655px;
+        height: 75%;
+
+    }
+
+    .rightBox {
+        display: none;
+    }
+
+    .leftRow {
+        top: -33px;
+
+    }
+
+    .title {
+        right: 24px;
+    }
+
+    .back {
+        bottom: 154px;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+    .leftBox {
+        width: 450px;
+        height: 90%;
+    }
+
+    .rightBox {
+        display: none;
+    }
+
+    .secondRow {
+        display: none;
+    }
+
+    .firstRow {
+        position: relative;
+        right: -45px;
+        top: 64px
+    }
+
+    .cardHolder{
+        margin: 10px 0px;
+    }
+}

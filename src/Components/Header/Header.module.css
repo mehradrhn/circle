@@ -1,0 +1,46 @@
+.navbar {
+    margin: 10px;
+}
+
+.news {
+    border-bottom: 3px solid #CCA349;
+    
+}
+
+.search {
+    border: 1px solid #F0F0F0;
+    background-color: #F0F0F0;
+    margin-left: 10px;
+    height: 40px;
+
+}
+
+.enter {
+    position: relative;
+    left: -4px;
+    height: 40px;
+    width: 80px;
+    border: 1px solid #F0F0F0;
+    background-color: #F0F0F0;
+
+}
+
+.enter>p {
+    text-align: center;
+    color: #CCA349;
+}
+
+.register {
+    z-index: 10;
+    height: 40px;
+    width: 80px;
+    border: 1px solid #CCA349;
+    background-color: #CCA349;
+    margin-left: 10px;
+
+}
+
+.register>p {
+    text-align: center;
+    color: #F0F0F0;
+}

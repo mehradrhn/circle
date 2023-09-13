@@ -1,0 +1,159 @@
+.holder {
+    position: relative;
+    top: 750px;
+
+}
+
+.CoursesIntroImg {
+    width: 420px;
+    position: relative;
+    left: 450px;
+    top: -642px;
+}
+
+.LearningPackages {
+    direction: rtl;
+    text-align: center;
+    position: relative;
+    top: -610px;
+    left: 20px;
+    font-size: x-large;
+}
+
+.SearchCourses {
+    width: 500px;
+    direction: rtl;
+    position: relative;
+    left: 400px;
+    top: -590px;
+}
+
+.InputSearch {
+    border: 1px solid #9B9891;
+    border-radius: 6px;
+}
+
+.SearchBtn {
+    border: none;
+    width: 55px;
+    position: relative;
+    right: 445px;
+    top: -37px;
+    height: 37px;
+    background-color: #CCA349;
+    border: 1px solid #CCA349;
+}
+
+.SearchIcon {
+    width: 25px;
+    position: relative;
+    top: -2px;
+}
+
+.SearchBtn:hover {
+    background-color: #CCA349;
+    border: none;
+}
+
+
+
+.BtnMoreNews {
+    position: relative;
+    left: 555px;
+    top: -535px;
+    width: 90px;
+    height: 36px;
+    background-color: #fff;
+    border: 1px solid #CCA349;
+    border-radius: 6px;
+
+}
+
+.BtnMoreNews>p {
+    text-align: center;
+    position: relative;
+    top: 1px;
+}
+
+.BtnMoreNews:hover {
+    background-color: #CCA349;
+}
+
+.BtnMoreNews:hover>p {
+    color: #fff;
+}
+
+@media only screen and (max-width: 960px) {
+
+    .CoursesIntroImg {
+        position: relative;
+        left: 293px;
+    }
+
+    .SearchCourses {
+        position: relative;
+        left: 246px;
+    }
+
+    .BtnMoreNews {
+        position: relative;
+        left: 313px;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .CoursesIntroImg {
+        position: relative;
+        left: 180px;
+        top: -600px;
+    }
+
+    .SearchCourses {
+        position: relative;
+        left: 140px;
+    }
+
+    .LearningPackages {
+        position: relative;
+        left: 2px;
+    }
+
+    .BtnMoreNews {
+        position: relative;
+        left: 248px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .CoursesIntroImg {
+        position: relative;
+        width: 200px;
+        top: -460px;
+        left: 147px;
+    }
+
+    .LearningPackages {
+        position: relative;
+        font-size: medium;
+        top: -440px;
+    }
+
+    .SearchBtn {
+        position: relative;
+        right: 245px;
+    }
+
+    .SearchCourses {
+        position: relative;
+        left: 90px;
+        top: -425px;
+        width: 300px;
+    }
+
+    .BtnMoreNews {
+        position: relative;
+        top: -400px;
+        left: 193px;
+    }
+}

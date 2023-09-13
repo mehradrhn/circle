@@ -1,0 +1,97 @@
+.holder {
+    margin: 10px auto;
+}
+
+.row {
+    position: relative;
+    left: 40px;
+}
+
+.card {
+    direction: rtl;
+    text-align: center;
+    margin-left: 96px;
+    margin-top: 50px;
+    border: none;
+    background-color: #F0F0F0;
+    width: 10rem;
+    height: 145px;
+    border-radius: 5%;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.Grouping {
+    text-align: center;
+    margin-top: 65px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.CardImg {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: 30px;
+    width: 50px;
+    height: 50px;
+}
+
+.CardTitle {
+    position: relative;
+    font-size: larger;
+    top: 30px;
+}
+
+@media only screen and (min-width: 1491px) {
+
+    .Grouping {
+        position: relative;
+        right: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 1605px) {
+
+    .Grouping {
+        position: relative;
+        right: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 960px) {
+
+    .card {
+        margin-left: 50px;
+        width: 7rem;
+    }
+
+
+    .CardTitle {
+        font-size: large;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+
+    .card {
+        margin-left: 169px;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+
+    .card {
+        margin-left: 170px;
+    }
+
+    .row{
+      left: 0;  
+    }
+
+}

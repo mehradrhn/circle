@@ -1,0 +1,42 @@
+.navbar {
+    background-color: #F6F6F6;
+}
+
+.home {
+    border-bottom: 3px solid #CCA349;
+    color: black;
+}
+
+.search {
+    border: 1px solid #46A194;
+    background-color: #46A194;
+    margin-left: 10px;
+    height: 40px;
+
+}
+
+
+
+.register {
+    z-index: 10;
+    height: 40px;
+    width: 100px;
+    border: 1px solid #46A194;
+    background-color: #46A194;
+    margin-left: 10px;
+
+}
+
+.register>p {
+    position: relative;
+    right: 10px;
+    color: #F0F0F0;
+}
+
+.hesabPic {
+    position: relative;
+    bottom: 44px;
+    left: 33px;
+    width: 35%;
+    height: 110%;
+}

@@ -1,0 +1,70 @@
+.title {
+    position: relative;
+    top: 94px;
+    justify-content: center;
+    display: flex;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.suggestPic {
+    width: 33%;
+    position: relative;
+    left: 120px;
+    top: 175px;
+}
+
+.card {
+    height: 370px;
+    float: right;
+    margin-top: 210px;
+    margin-right: 210px;
+    box-shadow: -1px 0px 15px 5px rgba(40, 40, 40, 0.1);
+    border: none;
+}
+
+.text {
+    margin-top: 10px;
+}
+
+.send {
+    margin: 40px auto;
+    display: block;
+}
+
+.form {
+    height: 120px;
+
+}
+
+
+
+@media only screen and (min-width: 1280px) {}
+
+@media only screen and (max-width: 1280px) {}
+
+@media only screen and (max-width: 960px) {
+
+    .suggestPic {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+
+    .suggestPic {
+        display: none;
+    }
+
+    .card {
+        margin: 210px 80px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+    .suggestPic {
+        display: none;
+    }
+}

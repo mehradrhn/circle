@@ -1,0 +1,205 @@
+.holder {
+    background: #F6F6F6;
+    height: 100vh;
+
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+
+}
+
+.leftBox {
+    position: relative;
+    background-color: #FFFFFF;
+    width: 700px;
+    height: 90%;
+    top: 50px;
+    border: 1px solid #4F0E73;
+    border-radius: 20px 0 0 20px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 40px;
+    font-size: 30px;
+
+}
+
+.searchBox {
+    position: relative;
+    top: -4px;
+    right: 32px;
+    display: flex;
+    justify-content: end;
+}
+
+.searchB {
+    position: relative;
+    left: 35px;
+    background-color: #46A194;
+    border: none;
+    width: 35px;
+    height: 30px;
+}
+
+.searchPic {
+    width: 20px;
+    position: relative;
+    bottom: 6px;
+    left: 7px;
+}
+
+.search {
+    width: 30%;
+    height: 30px;
+}
+
+.tablePic {
+    width: 40px;
+}
+
+.table {
+    position: relative;
+    top: 40px;
+    border-collapse: separate;
+    border-spacing: 0 1rem;
+
+}
+
+.head {
+    background-color: #46A194;
+
+
+}
+
+
+
+.rightBox {
+    position: relative;
+    background-color: #46A194;
+    width: 250px;
+    height: 90%;
+    top: 50px;
+    left: 20px;
+    border-radius: 0 20px 20px 0;
+}
+
+
+
+
+.admin {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    position: relative;
+    left: 50px;
+    bottom: 65px;
+}
+
+.adminText {
+    color: #FFFFFF;
+    font-size: 20px;
+    position: relative;
+    left: 60px;
+    bottom: 45px;
+
+}
+
+.work {
+    color: #FFFFFF;
+    position: relative;
+    left: 95px;
+    bottom: 50px;
+}
+
+.lis {
+    position: relative;
+    right: 40px;
+    top: 35px;
+
+    text-align: right;
+    list-style: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+
+.liPic {
+    width: 12%;
+    float: right;
+    margin-left: 10px;
+    margin-top: 4px;
+}
+
+
+@media only screen and (max-width: 960px) {
+    .leftBox {
+        height: 80%;
+    }
+
+    .rightBox {
+        width: 200px;
+        left: 7px;
+        height: 80%;
+    }
+
+    .admin {
+        left: 32px;
+    }
+
+    .adminText {
+        left: 42px;
+    }
+
+    .work {
+        left: 78px;
+    }
+
+    li {
+        right: 25px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .leftBox {
+        width: 500px;
+        height: 94%;
+
+    }
+
+    .rightBox{
+        height: 94%;
+    }
+
+    .leftRow{
+        top: -33px;
+
+    }
+
+    .title{
+        right: -30px;
+    }
+
+    .back{
+        bottom: 154px;
+    }
+
+    .search{
+        width: 35%;
+    }
+        
+}
+
+@media only screen and (max-width: 480px) {
+    .leftBox{
+        width: 455px;
+    }
+    
+    .rightBox{
+        display: none;
+    }
+
+    
+}
